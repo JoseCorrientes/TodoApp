@@ -1,0 +1,55 @@
+.TodoFormContainer {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.TodoFormTitle {
+    font-size: 3rem;
+    font-stretch: extra-condensed;
+    font-weight: 300;
+    margin-top: .7rem;
+    margin-bottom: 0;
+}
+.TodoFormInput {
+    margin-top: 2rem;
+    margin-bottom: 0;
+    width: 900px;
+    height: 50px;
+    font-size: 2rem;
+}
+.TodoFormCancelButton {
+    border: 2px solid red;
+    margin-top: 1.5rem;
+    margin-right: .1rem;
+    background-color: red;
+    width: 12rem;
+    height: 3rem;
+    color: white;
+    font-size: 2rem;
+    font-weight: 100;
+    font-stretch: extra-condensed;
+    cursor: pointer;
+}
+.TodoFormCancelButton:hover {
+    transform: scale(1.3);
+    transition: .7;
+    background-color: black;
+}
+.TodoFormOkButton {
+    border: 2px solid green;
+    margin-top: 1.5rem;
+    margin-left: .1rem;
+    background-color: green;
+    width: 12rem;
+    height: 3rem;
+    color: white;
+    font-size: 2rem;
+    font-weight: 100;
+    font-stretch: extra-condensed;
+    cursor: pointer;
+}
+.TodoFormOkButton:hover {
+    transform: scale(1.3);
+    transition: .7;
+    background-color: black;
+}

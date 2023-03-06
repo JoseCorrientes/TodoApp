@@ -1,0 +1,46 @@
+.MainContainer {
+    border: 2px solid black;
+    border-radius: 26px;
+    height: 94vh;
+    width: 94vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-flow: row;
+    column-gap: 20px;
+    margin-top: 3vh;
+    
+    
+
+}
+.LeftContainer {
+    /* border: 2px solid black; */
+    border: none;
+    border-radius: 26px;
+    margin-top: 20px;
+    height: 90vh;
+    width: 45vW;
+    background-color: white;
+    margin: auto;
+}
+.RightContainer {
+    border: 2px solid black;
+    border-radius: 26px;
+    margin-top: 20px;
+    height: 90vh;
+    width: 45vW;
+    /* background-color: green; */
+    margin: auto;
+}
+
+.MainTitle {
+    font-family: 'Red Hat Display', sans-serif;
+    color: black;
+    font-size: 3.5rem;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 20px;
+    margin-bottom: 5px;
+    padding-bottom: 0;
+      
+}

@@ -1,0 +1,16 @@
+.ErrorErrorForm {
+    margin: 0;
+    padding: 0;;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(116, 3, 3);
+}
+.ErrorText {
+    font-stretch: ultra-condensed;
+    font-weight: 600;
+    padding-top: 1rem;
+    margin: 0;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}

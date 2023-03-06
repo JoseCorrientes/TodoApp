@@ -1,0 +1,60 @@
+.TodoContainer {
+    height: 9.8vh;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px 20px 0 0;
+    margin: 2px;
+    display: grid;
+    grid-template-columns: 40px auto 80px ;
+    align-content: center;
+   
+}
+.Titulo {
+    color: black;
+    background-color: white;
+    font-size: 40px;
+    font-weight: 100;
+    grid-column-start: 2 ;
+    grid-column-end: 3;
+    padding-left: 10px;
+}
+
+.TituloTachado {
+    color: gray;
+    background-color: white;
+    text-decoration:line-through;
+    font-size: 40px;
+    font-weight: 100;
+    grid-column-start: 2 ;
+    grid-column-end: 3;
+    padding-left: 10px;
+}
+
+
+
+.Check {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 40px;
+    height: 40px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.Check:hover {
+    cursor: pointer;
+}
+
+.TrashBucket {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 60px;
+    height: 60px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    padding-left: 10px;
+}
+.TrashBucket:hover {
+    transform: scale(1.1);
+    transition: .1s;
+    cursor: pointer;
+}

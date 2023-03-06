@@ -1,0 +1,12 @@
+.TodoListContainer {
+    padding-left: 5px; 
+    padding-right: 5px;
+    padding-top: .6vh;
+    padding-bottom: .6vh;
+    background-color: grey;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    overflow-y: scroll;
+    height: 62.5vh;
+}
